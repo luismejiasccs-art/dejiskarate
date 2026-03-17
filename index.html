@@ -268,45 +268,45 @@
                 </p>
             </div>
 
-            <!-- Cuadrícula de Galería -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
+            <!-- Cuadrícula de Galería (Estilo Masonry para evitar que se corten las fotos) -->
+            <div class="columns-1 sm:columns-2 md:columns-3 gap-4 lg:gap-6 space-y-4 lg:space-y-6">
                 
-                <!-- Foto 1 (Grande) -->
+                <!-- Foto 1 -->
                 <!-- RECUERDA: Cambia "foto-galeria-1.jpg" por el nombre de tu foto real -->
-                <div class="gallery-img-container rounded-xl md:col-span-2 md:row-span-2 shadow-md">
-                    <img src="foto-galeria-1.jpg" alt="Entrenamiento en el dojo" class="w-full h-64 md:h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1555597673-b21d5c935865?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'">
+                <div class="gallery-img-container rounded-xl shadow-md relative break-inside-avoid">
+                    <img src="foto-galeria-1.jpg" alt="Entrenamiento en el dojo" class="w-full h-auto" onerror="this.src='https://images.unsplash.com/photo-1555597673-b21d5c935865?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'">
                     <div class="gallery-overlay">
                         <h3 class="text-white font-bold text-xl">Entrenamiento Tradicional</h3>
                     </div>
                 </div>
 
                 <!-- Foto 2 -->
-                <div class="gallery-img-container rounded-xl shadow-md h-64">
-                    <img src="foto-galeria-2.jpg" alt="Práctica de Kumite" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                <div class="gallery-img-container rounded-xl shadow-md relative break-inside-avoid">
+                    <img src="foto-galeria-2.jpg" alt="Práctica de Kumite" class="w-full h-auto" onerror="this.src='https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
                     <div class="gallery-overlay">
                         <h3 class="text-white font-bold text-lg">Práctica de Kumite</h3>
                     </div>
                 </div>
 
                 <!-- Foto 3 -->
-                <div class="gallery-img-container rounded-xl shadow-md h-64">
-                    <img src="foto-galeria-3.jpg" alt="Demostración de Kata" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                <div class="gallery-img-container rounded-xl shadow-md relative break-inside-avoid">
+                    <img src="foto-galeria-3.jpg" alt="Demostración de Kata" class="w-full h-auto" onerror="this.src='https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
                     <div class="gallery-overlay">
                         <h3 class="text-white font-bold text-lg">Perfeccionando Katas</h3>
                     </div>
                 </div>
 
                 <!-- Foto 4 -->
-                <div class="gallery-img-container rounded-xl shadow-md h-64">
-                    <img src="foto-galeria-4.jpg" alt="Clase Infantil" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1516481157840-27f311ebc412?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                <div class="gallery-img-container rounded-xl shadow-md relative break-inside-avoid">
+                    <img src="foto-galeria-4.jpg" alt="Clase Infantil" class="w-full h-auto" onerror="this.src='https://images.unsplash.com/photo-1516481157840-27f311ebc412?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
                     <div class="gallery-overlay">
                         <h3 class="text-white font-bold text-lg">Futuros Cinturones Negros</h3>
                     </div>
                 </div>
 
                 <!-- Foto 5 -->
-                <div class="gallery-img-container rounded-xl shadow-md h-64 md:col-span-2">
-                    <img src="foto-galeria-5.jpg" alt="Examen de Grados" class="w-full h-full object-cover" style="object-position: center 20%;" onerror="this.src='https://images.unsplash.com/photo-1555597970-d5f0e3860bb1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'">
+                <div class="gallery-img-container rounded-xl shadow-md relative break-inside-avoid">
+                    <img src="foto-galeria-5.jpg" alt="Examen de Grados" class="w-full h-auto" onerror="this.src='https://images.unsplash.com/photo-1555597970-d5f0e3860bb1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'">
                     <div class="gallery-overlay">
                         <h3 class="text-white font-bold text-xl">Exámenes de Grado</h3>
                     </div>
